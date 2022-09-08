@@ -27,16 +27,7 @@ a:hover {
   padding-right: 10px;
   padding-top: 10px;
 }
-.bigicon {
-  font-size: 35px;
-  color: #36a0ff;
-}
-.formulario {
-  width: 13rem;
-}
-.form-horizontal {
-  padding-left: 10rem;
-}
+
 .sticky-top {
   background-color: black;
 }
@@ -142,7 +133,16 @@ nav {
   color: white;
   animation: animacionindex 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
-
+.bigicon {
+  font-size: 35px;
+  color: #36a0ff;
+}
+.formulario {
+  width: 13rem;
+}
+.form-horizontal {
+  padding-left: 10rem;
+}
 .maincontacto__logos {
   position: absolute;
   right: 45%;
@@ -165,7 +165,6 @@ nav {
 }
 .negocios img:hover {
   transform: scale(1.2);
-  
 }
 
 .bodyproducto {
@@ -190,7 +189,7 @@ nav {
     "a g f";
   grid-template-rows: 1fr 1fr 1fr 0.5fr;
   grid-template-columns: 2fr 0.5fr 2fr;
-  grid-gap: 12px;
+  grid-gap: 25px;
   border-style: solid;
   border-width: 30px;
   border-color: #b1977a;
@@ -205,7 +204,6 @@ nav {
 
 .fundafox__img1:hover {
   transform: scale(1.04);
-  
 }
 .fundafox__img2 {
   grid-area: b;
@@ -303,8 +301,7 @@ nav {
     background-image: url("../images/grupo\ 9_mobile.jpg");
     animation: fondoanimado 10s cubic-bezier(0.39, 0.575, 0.565, 0.2) both;
   }
-  
-   
+
   .producto {
     display: none;
   }
@@ -362,9 +359,11 @@ nav {
     background: linear-gradient(
       360deg,
       rgba(0, 0, 0, 1) 00%,
-      rgba(177, 151, 122, 1) 100%
+      rgb(0, 0, 0) 100%
     );
-    height: auto;
+  height: 15%!important;
+    color: white;
+
   }
   .bodyproducto {
     height: 100vh;
