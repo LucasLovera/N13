@@ -1,0 +1,27 @@
+.maincontacto {
+  background-image: url("../images/fondoproducto.pdf.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 500px;
+  grid-area: main;
+
+  &__formulario {
+    &--modifier {
+      width: 35%;
+      color: white;
+      animation: $primary;
+    }
+  }
+
+  &__logos {
+    position: absolute;
+    right: 45%;
+    bottom: 20%;
+    transform: scale(1.6);
+
+    i {
+      color: white;
+      margin: 20px;
+    }
+  }
+}

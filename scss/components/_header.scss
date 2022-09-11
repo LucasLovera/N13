@@ -1,0 +1,56 @@
+.encabezado {
+    grid-area: header;
+    height: 100%;
+
+    animation: $primary;
+    animation-delay: 0.5s;
+
+    &__nav {
+        height: 100%;
+
+        &-ntrece {
+
+            &:hover {
+                transform: scale(1.03);
+            }
+
+        }
+    }
+}
+
+
+
+.position-fixed {
+    z-index: 1;
+}
+
+.puntos_icono :hover {
+    transform: scale(1.2);
+}
+
+.navbar-toggler {
+    border: 0px;
+}
+
+.navbar-nav li {
+
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.navpuntos {
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.sticky-top {
+    background-color: black;
+}
+
+.burger {
+    color: white;
+}
+
+.producto_menu {
+    background-color: transparent;
+}

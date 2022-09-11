@@ -1,0 +1,26 @@
+.pie {
+    position: relative;
+    grid-area: fotter;
+    color: white;
+  
+    height: 100%;
+    font-weight: 400;
+  }
+  .pie li {
+    animation: $primary;
+    animation-delay: 1s;
+    margin: 1rem;
+    list-style: none;
+  }
+  .pie__producto {
+    grid-area: footer;
+    color: white;
+  
+    font-weight: 400;
+  }
+  .pie__producto li {
+    margin: 1rem;
+    list-style: none;
+    z-index: -1;
+  }
+  

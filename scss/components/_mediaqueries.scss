@@ -1,0 +1,92 @@
+@media (max-width: 768px) {
+    .body_index {
+      height: 100vh;
+      background-image: url("../images/grupo\ 9_mobile.jpg");
+      animation: fondoanimado 10s cubic-bezier(0.39, 0.575, 0.565, 0.2) both;
+    }
+  
+    .producto {
+      display: none;
+    }
+  
+    .contacto {
+      display: none;
+    }
+    .catalogo {
+      display: none;
+    }
+  
+    .pie {
+      display: inline !important;
+      text-align: center;
+    }
+    .pie__producto {
+      display: inline !important;
+      text-align: center;
+    }
+    .fundafox {
+      display: grid;
+      grid-template-areas:
+        "a a a"
+        "b b b"
+        "c d e"
+        "f f f";
+      grid-template-rows: 0.5fr 1fr 0.5fr 1fr;
+  
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 90%;
+    }
+    .fundafox__description {
+      grid-area: a;
+    }
+    .fundafox__img1 {
+      grid-area: b;
+      width: 100%;
+    }
+    .fundafox__img2 {
+      grid-area: c;
+    }
+    .fundafox__img3 {
+      grid-area: d;
+    }
+    .fundafox__img1-1 {
+      grid-area: e;
+    }
+    .fundafox__img4 {
+      grid-area: f;
+    }
+    body {
+      grid-template-rows: 0.5fr 5fr 0.5fr;
+    }
+    .pie__fundafox {
+      background: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 1) 00%,
+        rgb(0, 0, 0) 100%
+      );
+    height: 15%!important;
+      color: white;
+  
+    }
+    .bodyproducto {
+      height: 100vh;
+    }
+    .negocios {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    .maincontacto {
+      width: 100%;
+    }
+    .maincontacto__logos {
+      display: flex;
+      flex-direction: column;
+      transform: scale(1.1);
+      bottom: auto;
+    }
+    .encabezado__nav-ntrece:hover{ 
+    transform: scale(1.1)!important;
+   }
+  }  
+  
