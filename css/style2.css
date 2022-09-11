@@ -185,7 +185,7 @@ body {
   width: 15rem;
   margin: 2rem;
   transition-duration: 2s; }
-  .negocios img :hover {
+  .negocios img:hover {
     transform: scale(1.2); }
 
 @keyframes fondoanimado {
