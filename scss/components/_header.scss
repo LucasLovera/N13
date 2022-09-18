@@ -1,7 +1,5 @@
 .encabezado {
-    grid-area: header;
-    height: 100%;
-
+    @include areatamaño(header,100%);
     animation: $primary;
     animation-delay: 0.5s;
 

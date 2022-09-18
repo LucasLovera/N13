@@ -1,7 +1,6 @@
 .bodyproducto {
   background-image: url("/images/fondoproducto.pdf.jpg");
-  background-position: center center;
-  background-size: cover;
+  @extend %fondocentrado;
   height: 100vh;
 }
 
@@ -28,36 +27,16 @@
   border-color: #b1977a;
   animation: slide-bottom 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
 
-
   &__img1 {
-    grid-area: a;
-    width: 100%;
     transition-duration: 1s;
-
 
     &:hover {
       transform: scale(1.04);
     }
   }
 
-  &__img2 {
-    grid-area: b;
-    width: 100%;
-  }
-
-  &__img3 {
-    grid-area: d;
-    width: 100%;
-  }
-
-  &__img1-1 {
-    grid-area: e;
-    width: 100%;
-  }
-
   &__description {
-    grid-area: c;
-    width: 100%;
+    @include areatamaño(c,100%);
     position: relative;
     left: 20px;
 
@@ -73,15 +52,27 @@
   }
 
   &__img4 {
-    grid-area: f;
-    width: 50%;
+    @include areatamaño(f,50%);
     position: relative;
     left: 50%;
     bottom: -10%;
   }
 }
 
+$fundasoximagenes: (
+  img1: a,
+  img2: b,
+  img3: d,
+  img1-1: e,
 
+);
+
+@each $imagen,$area in $fundasoximagenes {
+  .fundafox__#{$imagen} {
+    grid-area: $area;
+    width: 100%;
+  }
+}
 
 
 

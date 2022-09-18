@@ -1,6 +1,5 @@
 .body_index {
-    background-image: url("../images/Grupo\ 9.jpg");
-    background-position: center center;
-    background-size: cover;
+    background-image: url("/images/fondoindex.jpg");
+    @extend %fondocentrado;
     animation: fondoanimado 10s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   }
