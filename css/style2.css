@@ -271,12 +271,13 @@ body {
     width: 100%; }
   .maincontacto__logos {
     display: flex;
-    width: 100%;
+    width: 80%;
     right: auto;
     bottom: auto;
     align-items: center;
     justify-content: center;
     transform: scale(1.1);
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    margin-left: 2rem; }
   .encabezado__nav-ntrece:hover {
     transform: scale(1.1) !important; } }
