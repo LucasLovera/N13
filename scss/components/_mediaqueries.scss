@@ -92,10 +92,16 @@
   }
 
   .maincontacto__logos {
+
     display: flex;
-    flex-direction: column;
-    transform: scale(1.1);
+    width: 100%;
+    right: auto;
     bottom: auto;
+align-items: center;
+justify-content: center;
+    transform: scale(1.1);
+    margin-top: 2rem;
+   
   }
 
   .encabezado__nav-ntrece:hover {
