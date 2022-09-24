@@ -29,6 +29,9 @@ body {
   grid-area: main;
   height: 100%; }
 
+ul {
+  list-style: none !important; }
+
 .encabezado {
   grid-area: header;
   width: 100%;
@@ -79,14 +82,13 @@ body {
   list-style: none; }
 
 .pie__producto {
-  grid-area: footer;
+  grid-area: fotter;
   color: white;
   font-weight: 400; }
 
 .pie__producto li {
   margin: 1rem;
-  list-style: none;
-  z-index: -1; }
+  list-style: none; }
 
 .body_index {
   background-image: url("/images/fondoindex.jpg");
