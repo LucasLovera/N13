@@ -9,20 +9,21 @@
     <title>>N13 | Puntos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="../images/grupo-33.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style2.css">
 
 </head>
 
-<body class="bodypunto"></body>
+<body>
 <header class="encabezado sticky-top">
     <nav class="navbar navbar-expand-lg navbar-dark encabezado__nav">
 
-        <div class="container-fluid">
-            <button class="navbar-toggler mt-3 " type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="pt-2 "> <i class="bi bi-list burger"></i></span>
+        <div class="container-fluid ">
+            <button class="navbar-toggler mt-3" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="pt-3"> <i class="bi bi-list burger"></i></span>
             </button>
 
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
@@ -32,11 +33,11 @@
                             aria-expanded="false">
                             Productos
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-dark producto_menu">
-                            <li><a class="dropdown-item" href="productos__sujeta-aletas--t1.html">Sujetadores T.1</a>
-                            </li>
-                            <li><a class="dropdown-item" href="productos__sujeta-aletas--t2.html">Sujetadores T.2</a>
-                            </li>
+                        <ul class="dropdown-menu dropdown-menu-dark ">
+                            <li><a class="dropdown-item" href="productos__sujeta-aletas--t1.html">Sujetadores
+                                    T.1</a></li>
+                            <li><a class="dropdown-item" href="productos__sujeta-aletas--t2.html">Sujetadores
+                                    T.2</a></li>
                             <li><a class="dropdown-item" href="productos__parafina.html">Parafinas</a></li>
                             <li><a class="dropdown-item" href="productos.html">Fundas Sox</a></li>
                             <li><a class="dropdown-item" href="productos__indumentaria.html">Indumentaria</a></li>
@@ -68,18 +69,18 @@
 
             </div>
         </div>
-        <a class="ntrece navbar-brand d-block d-lg-none position-fixed top-0 start-50 translate-middle-x "
+        <a class=" navbar-brand d-block d-lg-none position-absolute top-0 start-50 translate-middle-x"
             href="../index.html"><img class="encabezado__nav-ntrece" src="../images/n13.png" alt="n13"></a>
-        <a class="navbar active d-lg-none position-fixed top-0 end-0 translate-middle-x navpuntos mt-2 puntos_icono"
+        <a class="navbar active d-lg-none position-absolute top-0 end-0 translate-middle-x navpuntos mt-2 puntos_icono"
             aria-current="page" href="puntos-venta.html"><i class="bi bi-geo-alt-fill"></i></a>
     </nav>
 </header>
 <main class="mainpuntos d-flex justify-content-center w-80 ">
     <section class="negocios d-flex justify-content-center h-80
     pt-5">
-        <img class="negocios__1" src="../images/punto-venta.jpg" alt="lugaresdeventa">
-        <img class="negocios__2" src="../images/punto-venta2.jpg" alt="lugaresdeventa">
-        <img class="negocios__3" src="../images/punto-venta3.jpg" alt="imagendefunda">
+        <img data-aos="zoom-in-up" class="negocios__1 " src="../images/punto-venta.jpg" alt="lugaresdeventa">
+        <img data-aos="fade-right" class="negocios__2 " src="../images/punto-venta2.jpg" alt="lugaresdeventa">
+        <img data-aos="fade-right" class="negocios__3 " src="../images/punto-venta3.jpg" alt="imagendefunda">
     </section>
 </main>
 <footer>
@@ -92,10 +93,13 @@
 
     </ul>
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
 </script>
-
+<script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

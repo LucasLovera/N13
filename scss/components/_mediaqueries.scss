@@ -41,6 +41,7 @@
   }
 
   .fundafox__description {
+    
     grid-area: a;
   }
 
@@ -87,6 +88,16 @@
     height: 100%;
   }
 
+  .negocios img {
+    width: 17rem;
+    height: 32rem;
+   
+    transition-duration: 2s;
+  
+    &:hover {
+      transform: scale(1.1)!important;
+    }
+  }
   .maincontacto {
     width: 100%;
   }

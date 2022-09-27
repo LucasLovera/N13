@@ -31,7 +31,7 @@
     transition-duration: 1s;
 
     &:hover {
-      transform: scale(1.04);
+      transform: scale(1.04)!important;
     }
   }
 
@@ -43,6 +43,7 @@
     &--title {
       width: 10rem;
       margin-bottom: 20px;
+      font-weight: bold;
     }
 
     p {
@@ -71,6 +72,7 @@ $fundasoximagenes: (
   .fundafox__#{$imagen} {
     grid-area: $area;
     width: 100%;
+    &:hover{ transform: scale(0.9);}
   }
 }
 
@@ -84,3 +86,5 @@ $fundasoximagenes: (
       rgba(0, 0, 0, 1) 41%,
       rgba(177, 151, 122, 1) 42%);
 }
+.boton {position: fixed; 
+  z-index: -1;}
