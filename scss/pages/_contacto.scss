@@ -4,11 +4,11 @@
   height: 500px;
   grid-area: main;
 
-  
+
   &__logos {
     position: absolute;
     right: 45%;
-    bottom: 18%;
+    
     transform: scale(1.6);
 
     i {
@@ -17,6 +17,9 @@
     }
   }
 }
+
+
+
 .formulario {
   color: white;
   font-size: 27px;
