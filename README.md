@@ -10,14 +10,14 @@ origin
 
 ````bash
 > Sobre mi:
-> Me encuentro estudiando dentreo de Coderhouse y en Codo a Codo 4.0, apunto a ser diseñador
+> Me encuentro estudiando dentro de Coderhouse y en Codo a Codo 4.0, apunto a ser diseñador
 > y programador de aplicaciones, soy extremadamente amante de la informatica.
 > Ademas soy productor musical y tecladista, creo que la tegnologia y la música van de la mano.
 > Se utlizar varias herramientas como:
 >Ablenton Live
 >Photoshop
 >After Effects
->Corel Draws
+>Corel Draw
 >Vegas
 
 Mi email: lucaslovera.92@gmail.com
